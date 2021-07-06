@@ -78,28 +78,26 @@ body{
 }
 
 
-.recipies{
-    border: 400px black;
-    border-radius: 10px;
-}
-
-
 
 .recipies img{
-    width: 90%;
+    width: 100%;
     height:70%;
-    margin-top: 50px;
     
 }
 
 
 
-
-
 #item{
     display: flex;
-    border: coral 4px;
-    border-radius: 4px;
+}
+
+#item div{
+    border:2px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 12px;
+
 }
 
 
