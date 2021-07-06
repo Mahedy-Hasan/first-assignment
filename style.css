@@ -105,27 +105,39 @@ body{
 
 
 #reviews{
-
-    width:50%;
-    height: 80px;
-    float:left;
+    display: flex;
+    width:auto;
+    text-align: center;
     opacity: 0.9;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 40px;
     padding: 2px; 
-    background-color: black ;
+    background-color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-
-#reviews ul li{
-    width: 120px;
-    margin:10px auto ;
-    text-align: center;
-
+#reviews div{
+    width:50% ;
+    height:5%;
+    margin-bottom:40px ;
+    margin-top: 40px;
+    padding-left:10px ;
+    padding-right: 10px;
+    padding-top:0;
+    padding-bottom: 0;
 }
 
 
 
 
 
+#last{
+    background-color: black;
+    border: 4px;
+    text-align: center;
+
+}
 
