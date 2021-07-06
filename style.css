@@ -25,9 +25,9 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#box ul li{
-    width: 120px;
-    float:left;
+#box ul li {
+    width:120px ;
+    float: left;
     margin:10px auto ;
     text-align: center;
 }
@@ -56,8 +56,14 @@ body{
 
 .half-width{
     width:50%;
+    height:200px;
     padding: 100px;
     margin-bottom: 150px;
+}
+
+.half-width img{
+    width: 50%;
+    height: 400px;;
 }
 
 
@@ -67,19 +73,59 @@ body{
     background-repeat: no-repeat;
     background-position :center;
     padding:10px ;
+    
+    
+}
 
+
+.recipies{
+    border: 400px black;
+    border-radius: 10px;
+}
+
+
+
+.recipies img{
+    width: 90%;
+    height:70%;
+    margin-top: 50px;
     
 }
 
 
 
-.recipies{
-    width:10%px;
-    height: 10%px;
-
-}
 
 
 #item{
     display: flex;
+    border: coral 4px;
+    border-radius: 4px;
 }
+
+
+
+#reviews{
+
+    width:50%;
+    height: 80px;
+    float:left;
+    opacity: 0.9;
+    padding: 2px; 
+    background-color: black ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+#reviews ul li{
+    width: 120px;
+    margin:10px auto ;
+    text-align: center;
+
+}
+
+
+
+
+
+
