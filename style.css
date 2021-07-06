@@ -3,6 +3,21 @@ body{
     color: green;
 }
 
+body h1{
+    font-size: 50px;
+}
+
+body h2{
+    font-size: 30px;
+}
+
+body h3{
+    font-size:25 ;
+}
+
+body p{
+    font-size:20px ;
+}
 
 #heading{
     width: 50%;
@@ -51,6 +66,11 @@ body{
 
 #first{
     display: flex;
+    margin-bottom: 150px;
+}
+
+#first h1{
+    color: orange;
 }
 
 
@@ -76,6 +96,12 @@ body{
     
     
 }
+
+#our{
+    text-align: center;
+}
+
+
 
 
 
