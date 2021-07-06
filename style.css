@@ -86,6 +86,19 @@ body p{
     height: 400px;;
 }
 
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700;
+    padding-left:  40px ;
+    padding-right: 40px;
+    padding-top:15px; 
+    padding-bottom: 15px;
+    border-radius:5px;
+}
+
+
 
 #about-us{
     display: flex;
